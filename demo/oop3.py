@@ -1,5 +1,13 @@
 # Another way of how to create classes
 class Animal:
+# fuction__init__ is a special method we use as a special constructor
+    """
+     
+The first parameter in the constructer, self, 
+is used to identify/link the property, attribute,
+ of a class to the parameters
+
+    """
     def __init__(self,name,age,owner,colour,skintexture,taste):
         self.name = name
         self.age = age
@@ -40,6 +48,12 @@ class Cars:
 car1 = Cars("G-Wagon","Mercedes","black")
 
 # class 4
+
+
+
+
+
+
 
         
 
